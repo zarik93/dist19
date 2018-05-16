@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--- Basic Page Needs  -->
+    <meta charset="utf-8">
+    <title>Grand Restaurant</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Specific Meta  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/icofont.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/meanmenu.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#scroll-menu" data-offset="100">
+    <div id="preloader"></div>
+    <!-- header-start -->
+    <header>
+        <div class="header-top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="header-top-left">
+                            <div class="header-top-social">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-jsfiddle"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="header-top-intro">
+                                <p>Call for reservation: +001 23 345 678</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="header-top-right">
+                            <div class="ht-opening-time">
+                                <p>Opening Hours : 8:00am - 19:00pm</p>
+                            </div>
+                            <div class="ht-language">
+                                <a href="#">Eng <i class="fa fa-angle-down"></i></a>
+                                <ul class="language-dropdown">
+                                    <li><a href="#">Esp</a></li>
+                                    <li><a href="#">Chi</a></li>
+                                    <li><a href="#">Pol</a></li>
+                                </ul>
+                            </div>
+                            <div class="ht-shopping-cart">
+                                <a href="#">
+                                    <i class="fa fa-shopping-bag"></i>
+                                    <span class="ht-shopping-number">2</span>
+                                </a>
+                                <div class="my-cart">
+                                    <div class="my-cart-products">
+                                        <div class="single-mcp clearfix">
+                                            <div class="single-mcp-img">
+                                                <img src="img/cart/cart2.jpg" alt="">
+                                            </div>
+                                            <div class="single-mcp-content">
+                                                <a class="mcp-product-name" href="#">Light Cappuccino</a>
+                                                <span class="mcp-pro-quantity">1 x <span class="mcp-pro-price">$50</span></span>
+                                            </div>
+                                            <a href="#" class="mcp-pro-delete"><i class="fa fa-times"></i></a>
+                                        </div>
+                                        <div class="single-mcp clearfix">
+                                            <div class="single-mcp-img">
+                                                <img src="img/cart/cart3.jpg" alt="">
+                                            </div>
+                                            <div class="single-mcp-content">
+                                                <a class="mcp-product-name" href="#">Caramel Latte</a>
+                                                <span class="mcp-pro-quantity">1 x <span class="mcp-pro-price">$50</span></span>
+                                            </div>
+                                            <a href="#" class="mcp-pro-delete"><i class="fa fa-times"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="my-cart-total-cost">
+                                        <span>Total cost</span>
+                                        <span class="cost">$400</span>
+                                    </div>
+                                    <div class="viewcart-checkout">
+                                        <a class="viewcart" href="#">View cart</a>
+                                        <a class="checkout" href="#">Check out</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-6 col-xs-6">
+                        <div class="logo">
+                            <a href="index.html"><img src="img/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-6 hidden-sm hidden-xs">
+                        <div class="menu">
+                            <nav>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Reservation</a></li>
+                                    <li><a href="#">Menu</a></li>
+                                    <li><a href="#">Service</a></li>
+                                    <li><a href="#">Shop</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Pages</a>
+                                        <!-- <div class="mega-menu md-right">
+                                            <span>
+                                                <a href="about-us.html">About Us</a>
+                                                <a href="reservation.html">Reservation</a>
+                                                <a href="reservation-2.html">Reservation 2</a>
+                                                <a href="menu-1.html">Menu 1</a>
+                                                <a href="menu-2.html">Menu 2</a>
+                                                <a href="our-service.html">Our Service</a>
+                                            </span>
+                                            <span>
+                                                <a href="oublog-archive.html">Blog Archive</a>
+                                                <a href="blog-single.html">Blog Single</a>
+                                                <a href="shop-page.html">Shop Page</a>
+                                                <a href="single-product.html">Single Product</a>
+                                                <a href="cart.html">Cart</a>
+                                                <a href="checkout.html">Checkout</a>
+                                            </span>
+                                            <span>
+                                                <a href="event.html">Event</a>
+                                                <a href="our-chef.html">Our Chef</a>
+                                                <a href="contact.html">Contact</a>
+                                                <a href="pricing.html">Pricing Table</a>
+                                                <a href="coming-soon.html">Coming Soon</a>
+                                                <a href="404.html">404</a>
+                                            </span>
+                                        </div> -->
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-xs-6">
+                        <div class="reservation">
+                            <a class="hvr-bs" href="#">Reservation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-menu-area visible-xs visible-sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mobile_menu">
+                            <nav id="mobile_menu_active">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Reservation</a></li>
+                                    <li><a href="#">Menu</a></li>
+                                    <li><a href="#">Service</a></li>
+                                    <li><a href="#">Shop</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Pages</a>
+                                        <ul>
+                                            <li><a href="#">About Us</a></li>
+                                            <li><a href="#">Reservation</a></li>
+                                            <li><a href="#">Reservation 2</a></li>
+                                            <li><a href="#">Menu 1</a></li>
+                                            <li><a href="#">Menu 2</a></li>
+                                            <li><a href="#">Our Service</a></li>
+                                            <li><a href="#">Blog Archive</a></li>
+                                            <li><a href="#">Blog Single</a></li>
+                                            <li><a href="#">Shop Page</a></li>
+                                            <li><a href="#">Single Product</a></li>
+                                            <li><a href="#">Cart</a></li>
+                                            <li><a href="#">Checkout</a></li>
+                                            <li><a href="#">Event</a></li>
+                                            <li><a href="#">Our Chef</a></li>
+                                            <li><a href="#">Contact</a></li>
+                                            <li><a href="#">Pricing Table</a></li>
+                                            <li><a href="#">Coming Soon</a></li>
+                                            <li><a href="#">404</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+    <!-- home-one-hero-area-start -->
+    <div class="home-one-hero-area bg-with-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="home1-hero-carousel owl-carousel">
+                        <div class="home-one-hero-content">
+                            <h1 class="st-ds">Welcome</h1>
+                            <h2>Hight quality meals</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
+                            <a href="#">book a table</a>
+                        </div>
+                        <div class="home-one-hero-content">
+                            <h1 class="st-ds">Welcome</h1>
+                            <h2>Hight quality meals</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
+                            <a href="#">book a table</a>
+                        </div>
+                        <div class="home-one-hero-content">
+                            <h1 class="st-ds">Welcome</h1>
+                            <h2>Hight quality meals</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
+                            <a href="#">book a table</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- home-one-hero-area-end -->
+    <!-- home1-our-store-area-start -->
+    <div class="home1-our-store-area">
+        <div class="home1-ourstore-bg2"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                    <div class="home1-our-store-content">
+                        <h2 class="st-ds">Discover</h2>
+                        <h3>Our Store</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                        <div class="our-store-author">
+                            <div class="osa-img">
+                                <img src="img/our-store/author1.png" alt="">
+                            </div>
+                            <h4 class="osa-name">Russell Stephens</h4>
+                            <span class="osa-designation">Chef Cook</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- home1-our-store-area-end -->
+    <!-- dinner-experience-area-start -->
+    <div class="dinner-experience-area bg-with-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                    <div class="dinner-experience-head">
+                        <h2 class="st-ds">Dininer</h2>
+                        <h3>EXPERIENCE</h3>
+                        <p>Rica is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-de-item">
+                        <a href="img/dinner-experience/item1.jpg" data-fancybox="images">
+                            <img src="img/dinner-experience/item1.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-de-item">
+                        <a href="img/dinner-experience/item2.jpg" data-fancybox="images">
+                            <img src="img/dinner-experience/item2.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-de-item">
+                        <a href="img/dinner-experience/item3.jpg" data-fancybox="images">
+                            <img src="img/dinner-experience/item3.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-de-item">
+                        <a href="img/dinner-experience/item4.jpg" data-fancybox="images">
+                            <img src="img/dinner-experience/item4.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-de-item">
+                        <a href="img/dinner-experience/item5.jpg" data-fancybox="images">
+                            <img src="img/dinner-experience/item5.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-de-item">
+                        <a href="img/dinner-experience/item6.jpg" data-fancybox="images">
+                            <img src="img/dinner-experience/item6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- dinner-experience-area-end -->
+    <!-- popular-dish-area-start -->
+    <div class="popular-dish-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                    <div class="popular-dish-head">
+                        <h2 class="st-ds">Discover</h2>
+                        <h3>POPULAR DISHES</h3>
+                        <p>Rica is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, ov</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popular-dish-content-area">
+            <div class="container-fluid">
+                <div class="popular-dish-item-row">
+                    <div class="clearfix">
+                        <div class="popular-dish-item">
+                            <div class="single-popular-dish">
+                                <div class="popular-dish-img">
+                                    <a href="#"><img src="img/popular-dish/item1.jpg" alt=""></a>
+                                </div>
+                                <div class="popular-dish-content">
+                                    <a class="pdc-title" href="#">Trio Sausages <span class="pdc-price">$100</span></a>
+                                    <span class="pdc-desc">Mussel with tomato sauce, wine</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular-dish-item">
+                            <div class="single-popular-dish">
+                                <div class="popular-dish-img">
+                                    <a href="#"><img src="img/popular-dish/item2.jpg" alt=""></a>
+                                    <span class="spd-label">new</span>
+                                </div>
+                                <div class="popular-dish-content">
+                                    <a class="pdc-title" href="#">Cabernet Sauvignon <span class="pdc-price">$150</span></a>
+                                    <span class="pdc-desc">Mussel with tomato sauce, wine</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular-dish-item">
+                            <div class="single-popular-dish">
+                                <div class="popular-dish-img">
+                                    <a href="#"><img src="img/popular-dish/item3.jpg" alt=""></a>
+                                </div>
+                                <div class="popular-dish-content">
+                                    <a class="pdc-title" href="#">Delirium Tremens <span class="pdc-price">$300</span></a>
+                                    <span class="pdc-desc">Mussel with tomato sauce, wine</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular-dish-item">
+                            <div class="single-popular-dish">
+                                <div class="popular-dish-img">
+                                    <a href="#"><img src="img/popular-dish/item4.jpg" alt=""></a>
+                                </div>
+                                <div class="popular-dish-content">
+                                    <a class="pdc-title" href="#">Super Burgers <span class="pdc-price">$150</span></a>
+                                    <span class="pdc-desc">Mussel with tomato sauce, wine</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular-dish-item">
+                            <div class="single-popular-dish">
+                                <div class="popular-dish-img">
+                                    <a href="#"><img src="img/popular-dish/item5.jpg" alt=""></a>
+                                </div>
+                                <div class="popular-dish-content">
+                                    <a class="pdc-title" href="#">Beef Steak <span class="pdc-price">$250</span></a>
+                                    <span class="pdc-desc">Mussel with tomato sauce, wine</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular-dish-item-row">
+                    <div class="clearfix">
+                        <div class="popular-dish-item">
+                            <div class="single-popular-dish">
+                                <div class="popular-dish-img">
+                                    <a href="#"><img src="img/popular-dish/item6.jpg" alt=""></a>
+                                </div>
+                                <div class="popular-dish-content">
+                                    <a class="pdc-title" href="#">Trio Sausages <span class="pdc-price">$100</span></a>
+                                    <span class="pdc-desc">Mussel with tomato sauce, wine</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular-dish-item">
+                            <div class="single-popular-dish">
+                                <div class="popular-dish-img">
+                                    <a href="#"><img src="img/popular-dish/item7.jpg" alt=""></a>
+                                    <span class="spd-label">new</span>
+                                </div>
+                                <div class="popular-dish-content">
+                                    <a class="pdc-title" href="#">Cabernet Sauvignon <span class="pdc-price">$150</span></a>
+                                    <span class="pdc-desc">Mussel with tomato sauce, wine</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular-dish-item">
+                            <div class="single-popular-dish">
+                                <div class="popular-dish-img">
+                                    <a href="#"><img src="img/popular-dish/item8.jpg" alt=""></a>
+                                </div>
+                                <div class="popular-dish-content">
+                                    <a class="pdc-title" href="#">Delirium Tremens <span class="pdc-price">$300</span></a>
+                                    <span class="pdc-desc">Mussel with tomato sauce, wine</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular-dish-item">
+                            <div class="single-popular-dish">
+                                <div class="popular-dish-img">
+                                    <a href="#"><img src="img/popular-dish/item9.jpg" alt=""></a>
+                                </div>
+                                <div class="popular-dish-content">
+                                    <a class="pdc-title" href="#">Super Burgers <span class="pdc-price">$150</span></a>
+                                    <span class="pdc-desc">Mussel with tomato sauce, wine</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular-dish-item">
+                            <div class="single-popular-dish">
+                                <div class="popular-dish-img">
+                                    <a href="#"><img src="img/popular-dish/item10.jpg" alt=""></a>
+                                </div>
+                                <div class="popular-dish-content">
+                                    <a class="pdc-title" href="#">Beef Steak <span class="pdc-price">$250</span></a>
+                                    <span class="pdc-desc">Mussel with tomato sauce, wine</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- popular-dish-area-end -->
+    <!-- discover-lunch-area-start -->
+    <div class="discover-lunch-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                    <div class="discover-lunch-head">
+                        <h2 class="st-ds">Discover</h2>
+                        <h3>LUNCH SETS</h3>
+                        <p>Rica is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="lunch-content-left">
+                        <div class="single-lunch">
+                            <div class="clearfix">
+                                <div class="single-lunch-img">
+                                    <img src="img/discover-lunch/item1.png" alt="">
+                                </div>
+                                <div class="single-lunch-content">
+                                    <a class="slc-name" href="#">Chicken kebab grill <span class="slc-price">$13.00</span></a>
+                                    <p class="slc-text">chicken breast, black pepper, garlic, onion, green chillies, salt, vegetable oil</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-lunch">
+                            <div class="clearfix">
+                                <div class="single-lunch-img">
+                                    <img src="img/discover-lunch/item2.png" alt="">
+                                </div>
+                                <div class="single-lunch-content">
+                                    <a class="slc-name" href="#">Spicy Skirt Steak <span class="slc-price">$15.50</span></a>
+                                    <p class="slc-text">chicken breast, black pepper, garlic, onion, green chillies, salt, vegetable oil</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-lunch">
+                            <div class="clearfix">
+                                <div class="single-lunch-img">
+                                    <img src="img/discover-lunch/item3.png" alt="">
+                                </div>
+                                <div class="single-lunch-content">
+                                    <a class="slc-name" href="#">Pork Ribs <span class="slc-price">$13.50</span></a>
+                                    <p class="slc-text">chicken breast, black pepper, garlic, onion, green chillies, salt, vegetable oil</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-lunch">
+                            <div class="clearfix">
+                                <div class="single-lunch-img">
+                                    <img src="img/discover-lunch/item4.png" alt="">
+                                </div>
+                                <div class="single-lunch-content">
+                                    <a class="slc-name" href="#">Pork Chop with Cheese <span class="slc-price">$13.50</span></a>
+                                    <p class="slc-text">chicken breast, black pepper, garlic, onion, green chillies, salt, vegetable oil</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="lunch-content-left">
+                        <div class="single-lunch">
+                            <div class="clearfix">
+                                <div class="single-lunch-img">
+                                    <img src="img/discover-lunch/item5.png" alt="">
+                                </div>
+                                <div class="single-lunch-content">
+                                    <a class="slc-name" href="#">Chicken Wings <span class="slc-price">$14.00</span></a>
+                                    <p class="slc-text">chicken breast, black pepper, garlic, onion, green chillies, salt, vegetable oil</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-lunch">
+                            <div class="clearfix">
+                                <div class="single-lunch-img">
+                                    <img src="img/discover-lunch/item6.png" alt="">
+                                </div>
+                                <div class="single-lunch-content">
+                                    <a class="slc-name" href="#">Buffalo Drumsticks <span class="slc-price">$15.50</span></a>
+                                    <p class="slc-text">chicken breast, black pepper, garlic, onion, green chillies, salt, vegetable oil</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-lunch">
+                            <div class="clearfix">
+                                <div class="single-lunch-img">
+                                    <img src="img/discover-lunch/item7.png" alt="">
+                                </div>
+                                <div class="single-lunch-content">
+                                    <a class="slc-name" href="#">Barbecued Catfish <span class="slc-price">$17.50</span></a>
+                                    <p class="slc-text">chicken breast, black pepper, garlic, onion, green chillies, salt, vegetable oil</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-lunch">
+                            <div class="clearfix">
+                                <div class="single-lunch-img">
+                                    <img src="img/discover-lunch/item8.png" alt="">
+                                </div>
+                                <div class="single-lunch-content">
+                                    <a class="slc-name" href="#">Grilled Salmon <span class="slc-price">$18.50</span></a>
+                                    <p class="slc-text">chicken breast, black pepper, garlic, onion, green chillies, salt, vegetable oil</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- discover-lunch-area-end -->
+    <!-- testimonial-area-start -->
+    <div class="testimonial-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="testimonial">
+                        <div class="testimonial-carousel owl-carousel">
+                            <div class="single-testimonial">
+                                <p class="testimonial-text">“ We enjoy sharing the projects and posts we make just as much as we enjoy creating them. consectetur adipiscing elit, sed do eiusmod tempor incididunt Sit back & take a moment to browse through some of our recent completed work.”</p>
+                                <h3 class="testimonial-author st-ds">- Stevan Smith,</h3>
+                            </div>
+                            <div class="single-testimonial">
+                                <p class="testimonial-text">“ We enjoy sharing the projects and posts we make just as much as we enjoy creating them. consectetur adipiscing elit, sed do eiusmod tempor incididunt Sit back & take a moment to browse through some of our recent completed work.”</p>
+                                <h3 class="testimonial-author st-ds">- Stevan Smith,</h3>
+                            </div>
+                            <div class="single-testimonial">
+                                <p class="testimonial-text">“ We enjoy sharing the projects and posts we make just as much as we enjoy creating them. consectetur adipiscing elit, sed do eiusmod tempor incididunt Sit back & take a moment to browse through some of our recent completed work.”</p>
+                                <h3 class="testimonial-author st-ds">- Stevan Smith,</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- testimonial-area-end -->
+    <!-- blog-area-start -->
+    <div class="blog-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                    <div class="blog-area-head">
+                        <h2 class="st-ds">Blog</h2>
+                        <p>Rica is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blogs">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="single-blog">
+                            <div class="clearfix">
+                                <div class="blog-img">
+                                    <a href="#"><img src="img/blog/blog1.jpg" alt=""></a>
+                                </div>
+                                <div class="blog-content">
+                                    <h4 class="blog-type">Lookbook seasonal</h4>
+                                    <h4 class="blog-title">Brooklyn</h4>
+                                    <p class="blog-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore </p>
+                                    <a class="blog-read-more" href="#">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="single-blog">
+                            <div class="clearfix">
+                                <div class="blog-img">
+                                    <a href="#"><img src="img/blog/blog2.jpg" alt=""></a>
+                                </div>
+                                <div class="blog-content">
+                                    <h4 class="blog-type">Brading design</h4>
+                                    <h4 class="blog-title">Leeds Juicery</h4>
+                                    <p class="blog-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore </p>
+                                    <a class="blog-read-more" href="#">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="single-blog sb-cl">
+                            <div class="clearfix">
+                                <div class="blog-content">
+                                    <h4 class="blog-type">Photography</h4>
+                                    <h4 class="blog-title">Maxi Dress</h4>
+                                    <p class="blog-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore </p>
+                                    <a class="blog-read-more" href="#">READ MORE</a>
+                                </div>
+                                <div class="blog-img">
+                                    <a href="#"><img src="img/blog/blog3.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="single-blog sb-cl">
+                            <div class="clearfix">
+                                <div class="blog-content">
+                                    <h4 class="blog-type">Motion Graphic</h4>
+                                    <h4 class="blog-title">Hello Itaewon Project</h4>
+                                    <p class="blog-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore </p>
+                                    <a class="blog-read-more" href="#">READ MORE</a>
+                                </div>
+                                <div class="blog-img">
+                                    <a href="#"><img src="img/blog/blog4.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blog-area-end -->
+    <!-- book-table-area-start -->
+    <div class="book-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                    <div class="book-area-head">
+                        <h2 class="st-ds">Relaxing Atmosphere</h2>
+                        <h3>Book your table</h3>
+                    </div>
+                    <div class="book-form-area">
+                        <form action="#">
+                            <div class="book-form-row">
+                                <div class="clearfix">
+                                    <div class="book-input-name">
+                                        <input type="text" placeholder="Your Name *">
+                                    </div>
+                                    <div class="book-input-email">
+                                        <input type="email" placeholder="Your Email *">
+                                    </div>
+                                    <div class="book-input-number">
+                                        <input type="text" placeholder="Mobile Number *">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="book-form-row">
+                                <div class="clearfix">
+                                    <div class="book-input-date">
+                                        <input id="datepicker" type="text" placeholder="Date *">
+                                    </div>
+                                    <div class="book-input-time">
+                                        <input id="scrollDefaultExample" type="text" placeholder="Time *">
+                                    </div>
+                                    <div class="book-input-persons">
+                                        <input type="text" placeholder="No. of Persons *">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="book-input-book">
+                                <input class="hvr-bs" type="submit" value="Book Now">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- book-table-area-end -->
+    <!-- footer-start -->
+    <footer>
+        <div class="footer-top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-footer-item footer-item-desc">
+                            <img src="img/logo2.png" alt="">
+                            <p>Ut enim ad minim veniam, quis nostrud at exercitation ullamco laboris nisi nemo sit enim ipsam voluptatem quia voluptas</p>
+                            <ul class="footer-social">
+                                <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-footer-item footer-item-work-time">
+                            <h4 class="footer-title">Work time</h4>
+                            <ul class="work-time-list">
+                                <li>Monday - Friday <span class="wtl-time">09:00 - 23:00</span></li>
+                                <li>Saturday <span class="wtl-time">11:00 - 01:00</span></li>
+                                <li>Sunday <span class="wtl-time">12:00 - 23:00</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-footer-item footer-item-contact-us">
+                            <h4 class="footer-title">Contact Us</h4>
+                            <ul class="contact-address-list">
+                                <li>195 Duffy Ave, Hicksville, NY 11801, USA</li>
+                                <li>+38 056 23 14 9851</li>
+                                <li>Grand.info@mail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-footer-item footer-item-subscribe">
+                            <h4 class="footer-title">Subscribe to our news</h4>
+                            <div class="footer-subscribe-form-area">
+                                <form action="#">
+                                    <div class="fsfa-input">
+                                        <input type="email" placeholder="Your email">
+                                        <input class="hvr-bs" type="submit" value="Submit">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="footer-bottom">
+                            <p>© 2018 All Rights Reserved. Development by <a href="https://github.com/zarik93">Roman Zarytskyi</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-end -->
+    <!-- Scripts -->
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.meanmenu.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.scrollUp.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+
+</html>
